@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #45505b;
   color: #fff;
 }
 
@@ -477,7 +477,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -486,7 +486,7 @@ section {
   border-radius: 0;
 }
 
-.skills .progress .skill {
+.skills .progress {
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
@@ -494,6 +494,16 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #45505b;
+}
+
+.skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .skills .progress .skill .val {
@@ -510,6 +520,15 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #cc8084;
+}
+
+.skills {
+  background-color: black;
+  color: white;
+}
+
+#skil {
+  color: #cc8084;
 }
 
 /*--------------------------------------------------------------
